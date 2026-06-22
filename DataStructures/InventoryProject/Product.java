@@ -1,4 +1,4 @@
-package InventoryProject;
+
 // Product.java
 public class Product {
     private String productId;

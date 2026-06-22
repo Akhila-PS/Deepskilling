@@ -1,5 +1,3 @@
-package InventoryProject;
-
 // InventoryManager.java
 import java.util.HashMap;
 import java.util.Map;
@@ -30,7 +28,7 @@ public class InventoryManager {
     public boolean deleteProduct(String productId) {
         return inventory.remove(productId) != null;
     }
-    // Search a product - O(1) average
+// Search a product - O(1) average
     public Product getProduct(String productId) {
         return inventory.get(productId);
     }
